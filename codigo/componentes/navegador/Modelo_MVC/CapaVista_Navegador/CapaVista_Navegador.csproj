@@ -76,5 +76,10 @@
       <Name>CapaControlador_Navegador</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Ayudas\" />
+    <Folder Include="Formas\" />
+    <Folder Include="Propiedades\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

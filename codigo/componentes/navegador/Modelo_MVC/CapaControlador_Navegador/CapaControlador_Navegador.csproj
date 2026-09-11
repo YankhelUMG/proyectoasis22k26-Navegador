@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClsPermisoControlador.cs" />
+    <Compile Include="Permisos\ClsPermisoControlador.cs" />
     <Compile Include="controlador.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -50,6 +50,9 @@
       <Project>{1ff3723c-592d-4f22-a4fb-0eb6bbbf95b6}</Project>
       <Name>CapaModelo_Navegador</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Propiedades\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

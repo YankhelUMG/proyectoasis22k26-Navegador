@@ -49,10 +49,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClsPermisoModelo.cs" />
-    <Compile Include="conexionBD.cs" />
+    <Compile Include="Contratos\IRepositorioNavegador.cs" />
+    <Compile Include="Contratos\IRepositorioPermisos.cs" />
+    <Compile Include="Entidades\ClsPermisoModelo.cs" />
+    <Compile Include="Repositorios\conexionBD.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="sentencias.cs" />
+    <Compile Include="Repositorios\RepositorioPermisos.cs" />
+    <Compile Include="Repositorios\RepositorioNavegador.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Propiedades\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
